@@ -9,12 +9,26 @@ a {
     text-decoration: none;
 }
 
-li {
+ul, ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
+.header {border-bottom: 1px solid #E7E9FC;}
 
-/*  */
+.container{
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-nav {display:flex;
+align-items: center;}
+
+.header-nav { display: flex;
+    align-items: center;
+}
+
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -24,20 +38,25 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .part-logo-header {
     color: #2E2F42;
+
 }
 
-
+.heder-link-set{display: flex;
+gap: 40px;}
 
 .header-link {
+padding: 24px 0;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
 }
 
 .heder-link-set :hover,
@@ -47,8 +66,10 @@ li {
 
 .address-main {
     font-style: normal;
+    margin-left: auto;
 }
-
+.address-list {display: flex;}
+ 
 .address {
     color: #434455;
     font-family: Roboto;
@@ -57,6 +78,7 @@ li {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-right: 40px;
 }
 
 .address:hover {
