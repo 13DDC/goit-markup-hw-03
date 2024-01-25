@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0;
 
 }
 
@@ -68,17 +69,17 @@ padding: 24px 0;
     font-style: normal;
     margin-left: auto;
 }
-.address-list {display: flex;}
+.address-list {display: flex;
+gap: 40px;}
  
 .address {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 40px;
+ 
+
 }
 
 .address:hover {
@@ -91,15 +92,21 @@ padding: 24px 0;
 
 .section-title {
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
 }
 
 .section-title-first {
     color: #FFF;
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin-right: 316px;
+    margin-left: 316px;
+    height: 120px;
 }
 
 .button {
@@ -109,6 +116,12 @@ padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px; 
+    border: 0px;
+    margin-left: 472px;
+    margin-right: 472px;
+    margin-top: 48px;
 }
 
 .button:hover {
