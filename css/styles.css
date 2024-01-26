@@ -22,6 +22,7 @@ ul, ol {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid red ;
 }
 .container-nav {display:flex;
 align-items: center;}
@@ -92,8 +93,9 @@ gap: 40px;}
 
 .section-title {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 
 .section-title-first {
@@ -102,11 +104,10 @@ gap: 40px;}
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
-    padding-bottom: 48px;
-    margin-right: 316px;
-    margin-left: 316px;
-    height: 120px;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
 }
 
 .button {
@@ -116,13 +117,17 @@ gap: 40px;}
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
-    border-radius: 4px; 
-    border: 0px;
-    margin-left: 472px;
-    margin-right: 472px;
-    margin-top: 48px;
-}
+    border-radius: 4px;
+    border: none;
+     margin: 0 auto;
+     cursor: pointer;
+    
+    }
+
 
 .button:hover {
     background-color: #404BBF;
@@ -136,12 +141,30 @@ gap: 40px;}
     cursor: pointer;
 }
 
+.container-quality {
+  
+    padding-top: 120px;
+    padding-bottom: 120px;}
+
+
+.dontsee { 
+    visibility: hidden;
+}
+    
+.our-quality-list{
+     display: flex;
+     gap: 24px;
+}
+
 .our-quality {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    max-height: 24px;
+    margin: 0 auto;
 }
 
 
@@ -152,11 +175,19 @@ gap: 40px;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    max-height: 72px;
+
+
 }
 
 .team-section {
     background-color: #F4F4FD
 }
+.container-team {
+    padding-top: 120px;
+    padding-bottom: 120px;}
+
 
 .our-team {
     color: #2E2F42;
@@ -166,6 +197,12 @@ gap: 40px;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-bottom: 72px;
+    min-width: 162px;
+}
+.tema-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-info {
@@ -174,6 +211,10 @@ gap: 40px;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    max-height: 380px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .our-name {
@@ -182,6 +223,9 @@ gap: 40px;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    max-width: 232px;
+    max-height: 56px;
+
 }
 
 .our-position {
@@ -190,6 +234,7 @@ gap: 40px;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 
 
@@ -201,6 +246,23 @@ gap: 40px;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-bottom: 72px;
+}
+
+.container-portfolio {
+    max-width: 1440px;
+    max-height: 3300px;
+    padding-top: 120px;
+}
+
+
+
+
+.team-portfolio {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
 }
 
 .portfolio-projekt {
@@ -210,20 +272,36 @@ gap: 40px;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    max-width: 172px;
+    max-height: 24px;
+
 }
 
 .portfolio-projekt-work {
     color: #434455;
-
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    max-width: 75px;
+    max-height: 24px;
 }
 
 .portfolio-img {
     background-color: #FFF;
+    max-width: 360px;
+    max-height: 300px;
+    padding-bottom: 32px;
+}
+
+.container-footer {
+    max-width: 1440px;
+    max-height: 312px;
+    padding-top: 120px;
+    display: block;
+    margin-left:auto ;
 
 }
 
@@ -240,6 +318,8 @@ gap: 40px;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    max-width: 71px;
+    max-height: 21px;
 }
 
 .footer-parag {
@@ -249,4 +329,6 @@ gap: 40px;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    max-height: 72px;
 }
