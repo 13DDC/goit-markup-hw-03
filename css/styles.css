@@ -202,11 +202,12 @@ gap: 40px;}
 }
 
 .section-our-info {
-    bottom: 120px 0;
+
 }
 
 .team-section {
     background-color: #F4F4FD;
+        bottom: 120px 0;
 }
 
 
