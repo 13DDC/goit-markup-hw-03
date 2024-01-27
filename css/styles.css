@@ -203,6 +203,10 @@ gap: 40px;}
 
 }
 
+.section-our-info {
+    bottom: 120px 0;
+}
+
 .team-section {
     background-color: #F4F4FD;
 }
@@ -235,7 +239,7 @@ gap: 40px;}
     width: calc((100% - 72px) / 4);
 }
 .our-team-information{
-    padding: 32px o;
+    padding: 32px 0;
 }
 
 
@@ -298,6 +302,7 @@ gap: 40px;}
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    margin: 0 auto;
 }
 
 .portfolio-projekt {
