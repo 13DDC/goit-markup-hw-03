@@ -148,11 +148,10 @@ gap: 40px;}
     cursor: pointer;
 }
 
-.container-quality {
-  
-    padding-top: 120px;
-    padding-bottom: 120px;}
 
+.section-our-info {
+    padding: 120px 0
+}
 
 .visually-hidden {
     position: absolute;
@@ -167,7 +166,6 @@ gap: 40px;}
     overflow: hidden;
 }
  
-.section-our-info {padding: 120px 0}
 
 .our-quality-list{
      display: flex;
@@ -239,7 +237,8 @@ gap: 40px;}
     width: calc((100% - 72px) / 4);
 }
 .our-team-information{
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
